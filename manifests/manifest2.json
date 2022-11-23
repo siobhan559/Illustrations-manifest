@@ -1,0 +1,307 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://siobhan559.github.io/Illustrations-manifest/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Illustrations",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Siobhan"
+  }, {
+    "label" : "Started",
+    "value" : [ {
+      "@value" : "London, 2022",
+      "@language" : "en"
+    } ]
+  }, {
+    "label" : "Content",
+    "value" : "Illustrations"
+  } ],
+  "description" : [ {
+    "@value" : "Selection of illustrations from the V&A's collection",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Victoria and Albert Museum",
+  "sequences" : [ {
+    "@id" : "http://e14c9494-b155-4d2d-be18-409d0730929c",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b84abe3d-5370-4860-bd41-8349f38eada9",
+      "@type" : "sc:Canvas",
+      "label" : "Looking at paintings",
+      "viewingHint" : "paged",
+      "height" : 2500,
+      "width" : 2072,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://065436fe-6ce9-486f-a3d6-cc6b8f58d77a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2006-al-7715/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2006-al-7715",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2500,
+          "width" : 2072
+        },
+        "on" : "http://b84abe3d-5370-4860-bd41-8349f38eada9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fdbeb862-cf2c-4a97-9b50-523bbc4ac8a9",
+      "@type" : "sc:Canvas",
+      "label" : "Pen wash",
+      "height" : 2500,
+      "width" : 2039,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c8d56bd3-cac2-4554-bbf1-aba839d9c0fd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2006-bb-9484/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2006-bb-9484",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2500,
+          "width" : 2039
+        },
+        "on" : "http://fdbeb862-cf2c-4a97-9b50-523bbc4ac8a9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://277c6a2c-ce58-4b4e-9c28-61185e4cc5d0",
+      "@type" : "sc:Canvas",
+      "label" : "Dinner",
+      "height" : 1967,
+      "width" : 2500,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c651c1ad-bec4-4bc3-8dbd-78c486376c77",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2006-bc-7446/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2006-bc-7446",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1967,
+          "width" : 2500
+        },
+        "on" : "http://277c6a2c-ce58-4b4e-9c28-61185e4cc5d0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://aa984e53-be5c-45eb-a195-34f60b77b12b",
+      "@type" : "sc:Canvas",
+      "label" : "Elephant",
+      "height" : 2500,
+      "width" : 1668,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3bf25c53-9d90-4197-bced-5d03ffaf233d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2009-bx-3686/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2009-bx-3686",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2500,
+          "width" : 1668
+        },
+        "on" : "http://aa984e53-be5c-45eb-a195-34f60b77b12b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3ed84e60-a49c-4452-8441-6d989e184306",
+      "@type" : "sc:Canvas",
+      "label" : "Drunk",
+      "height" : 1875,
+      "width" : 2500,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://21eaf0d2-c747-4677-ad71-24218cd1346e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2011-fd-1304/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2011-fd-1304",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1875,
+          "width" : 2500
+        },
+        "on" : "http://3ed84e60-a49c-4452-8441-6d989e184306"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f562b837-4176-4c33-8954-4725d3f4efba",
+      "@type" : "sc:Canvas",
+      "label" : "Collage",
+      "height" : 2500,
+      "width" : 1875,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1372f61a-3bf5-453a-97b3-27a205ab5b01",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2012-fv-8894/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2012-fv-8894",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2500,
+          "width" : 1875
+        },
+        "on" : "http://f562b837-4176-4c33-8954-4725d3f4efba"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4a83de04-1e1c-4c50-8185-4ce1f322723a",
+      "@type" : "sc:Canvas",
+      "label" : "Winter coat",
+      "height" : 2500,
+      "width" : 1963,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c181f5ca-d4db-461d-8cba-629dbca08a48",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2014-hh-4604/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2014-hh-4604",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2500,
+          "width" : 1963
+        },
+        "on" : "http://4a83de04-1e1c-4c50-8185-4ce1f322723a"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c0620af1-f810-4c2f-8589-8c3bf34b20ec",
+      "@type" : "sc:Canvas",
+      "label" : "Sitting",
+      "height" : 2500,
+      "width" : 2119,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0bbd003e-79c3-40a1-8f96-64a8aa67638b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2017-km-9891/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2017-km-9891",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2500,
+          "width" : 2119
+        },
+        "on" : "http://c0620af1-f810-4c2f-8589-8c3bf34b20ec"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://58d71672-9c6d-402c-8fb0-185d7e4cbcd3",
+      "@type" : "sc:Canvas",
+      "label" : "Park",
+      "height" : 1718,
+      "width" : 2500,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b3d2bb2d-4fe9-4648-a7bc-e2f282c0f655",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2017-kn-0790/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2017-kn-0790",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1718,
+          "width" : 2500
+        },
+        "on" : "http://58d71672-9c6d-402c-8fb0-185d7e4cbcd3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cc93de13-d8d9-4659-99d5-e520caa4ad67",
+      "@type" : "sc:Canvas",
+      "label" : "Cat and owl",
+      "height" : 1977,
+      "width" : 2500,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://27eb00ed-3aac-4c52-93af-a0bfbd30c6e9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2017-kn-0848/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2017-kn-0848",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1977,
+          "width" : 2500
+        },
+        "on" : "http://cc93de13-d8d9-4659-99d5-e520caa4ad67"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Painting 1",
+    "canvases" : [ "http://b84abe3d-5370-4860-bd41-8349f38eada9" ]
+  } ]
+}
