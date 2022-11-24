@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://siobhan559.github.io/Illustrations-manifest/annotations/b1c8fe119c10dd2117175ef4ab430e44.json" ],
+  "@id" : "https://siobhan559.github.io/Illustrations-manifest/annotations/collection.json",
+  "label" : "All annotations loaded in siobhan559/Illustrations-manifest project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
