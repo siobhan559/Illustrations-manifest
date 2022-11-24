@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Classical jug",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Classical jug</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/86322223",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-11-24T08:44:50",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1669279490072",
+    "dcterms:modified" : "2022-11-24T08:44:50",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://siobhan559.github.io/Illustrations-manifest/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=264,823,336,336"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M264.42027,822.65163h168.07981v0h168.07981v168.07981v168.07981h-168.07981h-168.07981v-168.07981z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_21acfc41-67f5-4785-aeff-d865fe8a74d4\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://fdbeb862-cf2c-4a97-9b50-523bbc4ac8a9"
+    } ]
+  } ],
+  "@id" : "https://siobhan559.github.io/Illustrations-manifest/annotations/8dd48f965087e9ac5665cbb515a72a49.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
