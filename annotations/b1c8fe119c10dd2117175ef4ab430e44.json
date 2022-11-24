@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Is the guest drunk?",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Is the guest drunk?</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/86322223",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-11-24T08:45:12",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1669279512943",
+    "dcterms:modified" : "2022-11-24T08:45:12",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://siobhan559.github.io/Illustrations-manifest/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1386,1344,31,46"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1401.78425,1390.83937c0,-10.32546 5.16273,-20.65092 15.48819,-30.97638c0,-8.55389 -6.9343,-15.48819 -15.48819,-15.48819c-8.55389,0 -15.48819,6.9343 -15.48819,15.48819c10.32546,10.32546 15.48819,20.65092 15.48819,30.97638z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_b8ad328b-57f9-4edc-b55a-a76063be47a3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://277c6a2c-ce58-4b4e-9c28-61185e4cc5d0"
+    } ]
+  } ],
+  "@id" : "https://siobhan559.github.io/Illustrations-manifest/annotations/b1c8fe119c10dd2117175ef4ab430e44.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
