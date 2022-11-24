@@ -3,6 +3,11 @@
   "@id" : "https://siobhan559.github.io/Illustrations-manifest/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Illustrations",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/86322223/1070d076a701660cf94088023cd37993/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Author",
     "value" : "Siobhan"
@@ -55,6 +60,11 @@
         },
         "on" : "http://b84abe3d-5370-4860-bd41-8349f38eada9"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://siobhan559.github.io/Illustrations-manifest/annotations/b1c8fe119c10dd2117175ef4ab430e44.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "First annotations"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://fdbeb862-cf2c-4a97-9b50-523bbc4ac8a9",
@@ -81,6 +91,11 @@
         },
         "on" : "http://fdbeb862-cf2c-4a97-9b50-523bbc4ac8a9"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://siobhan559.github.io/Illustrations-manifest/annotations/4e988a1ba97009c9ff64c6da7376fc93.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Second annotations"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://277c6a2c-ce58-4b4e-9c28-61185e4cc5d0",
@@ -106,6 +121,11 @@
           "width" : 2500
         },
         "on" : "http://277c6a2c-ce58-4b4e-9c28-61185e4cc5d0"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://siobhan559.github.io/Illustrations-manifest/annotations/8dd48f965087e9ac5665cbb515a72a49.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Third annotations"
       } ],
       "related" : ""
     }, {
